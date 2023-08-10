@@ -32,7 +32,7 @@ struct ContentView: View {
             }
         }
         .padding()
-        .alert("Nice!", isPresented: $presentAlert) {
+        .alert("Nice", isPresented: $presentAlert) {
         }
     }
 }
